@@ -3,5 +3,13 @@
 version = 4
 
 [[package]]
+name = "parstastic_json"
+version = "0.1.0"
+source = "git+https://github.com/Parstastic/parstastic-json-rust#b009bf03f0ed64d035756114987174df54a79d68"
+
+[[package]]
 name = "parstastic_jsonc"
 version = "0.1.0"
+dependencies = [
+ "parstastic_json",
+]
